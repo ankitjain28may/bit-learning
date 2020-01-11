@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Generating .npmrc file for installing components from bit
+      run: 
     - name: npm install
       run: npm install
-      env:
-        BIT_TOKEN: ${{ secrets.BIT_TOKEN }}
