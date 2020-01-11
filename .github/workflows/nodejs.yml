@@ -21,3 +21,5 @@ jobs:
       run: npm install
       env:
         BIT_TOKEN: ${{ secrets.BIT_TOKEN }}
+    - name: Showing Tree
+      run: tree -L 4
