@@ -22,6 +22,6 @@ jobs:
       env:
         BIT_TOKEN: ${{ secrets.BIT_TOKEN }}
     - name: Installing Tree
-      run: apt-get install tree
+      run: sudo apt-get install tree
     - name: Showing Tree
       run: tree -L 4
