@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@bit/ankitjain28may.bit-learning.helloworld": "^1.1.0",
-    "vue": "^2.6.10"
+    "vue": "^3.0.0"
   },
   "bit": {
     "env": {},
